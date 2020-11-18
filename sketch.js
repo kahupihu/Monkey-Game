@@ -86,7 +86,7 @@ function spawnBananas(){
 }
 
 function spawnRocks(){
-  if(frameCount%100===0){
+  if(frameCount%300===0){
     obstacle=createSprite(400,325,10,10);
     obstacle.addImage(obstacleImage);
     obstacle.scale=0.1;
